@@ -88,6 +88,13 @@ nav a {
 }
 
 /*main*/
+
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 .description {
     color: #757575;
     text-align: center;
@@ -100,6 +107,8 @@ nav a {
 .about {
     padding: 130px;
     border-radius: 10px;
+    background-color: #FFF8F3;
+    margin: 130px 0;
 }
 
 .section-title {
@@ -107,4 +116,21 @@ nav a {
     font-family: Open Sans;
     font-size: 35px;
     font-style: normal;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-title {
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    
+}
+.info-description{
+    text-align: center;
+    font-style: arial;
+    font-size: 20px;
 }
