@@ -1,10 +1,9 @@
-body {
-    font-family: 'Open Sans', sans-serif;
-}
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 .text-primary {
@@ -24,6 +23,7 @@ nav {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    font-family: 'Open Sans', sans-serif;
 }
 .mary{
     color: #FD6E0A;
@@ -42,4 +42,20 @@ nav li {
 nav a {
     text-decoration: none;
     color: gray;
+}
+
+
+
+
+
+
+/*      banner      */
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex; 
+    align-items: center;
+}
+.banner .profilepic{
+    width: 500px;
 }
