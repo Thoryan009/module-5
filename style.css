@@ -1,4 +1,3 @@
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -25,7 +24,8 @@ nav {
     line-height: normal;
     font-family: 'Open Sans', sans-serif;
 }
-.mary{
+
+.mary {
     color: #FD6E0A;
 }
 
@@ -50,12 +50,61 @@ nav a {
 
 
 /*      banner      */
+.header {
+    background-image: url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 
-.banner{
-    padding: 30px 30px 30px 150px;
-    display: flex; 
-    align-items: center;
 }
-.banner .profilepic{
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner .profilepic {
     width: 500px;
+}
+
+.banner-greetings {
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.banner-title {
+    color: var(--dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 85px;
+    font-style: normal;
+}
+
+/*main*/
+.description {
+    color: #757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.about {
+    padding: 130px;
+    border-radius: 10px;
+}
+
+.section-title {
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
 }
